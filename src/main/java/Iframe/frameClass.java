@@ -8,9 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class frameClass {
 
 	public static void main(String[] args) throws InterruptedException {
+		
+//		this is my new code
 //		1. launch the browser 
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();		
+		driver.manage().window().maximize();	
+		driver.manage().window().minimize();	
 //		2. enter the url	
 		driver.get("https://magnus.jalatechnologies.com/");	
 		
